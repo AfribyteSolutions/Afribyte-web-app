@@ -84,7 +84,7 @@ export default function AfribookingPage() {
         <Spacing lg="145" md="80" />
         <Div className="container">
           <Div className="cs-portfolio_1_heading">
-            <SectionHeading title="Leading House Rental" subtitle="Afribooking" />
+            <SectionHeading title="Leading Holiday Home Booking Platform" subtitle="Afribooking" />
             <img src="/images/portfolio_8.png" style={{ width: "230px", height: "auto" }} />
             
             {/* <Div className="cs-filter_menu cs-style1">
@@ -157,7 +157,7 @@ export default function AfribookingPage() {
         </Div>
         <Spacing lg="145" md="80" />
         <Cta
-          title="infotech@afribyte.com"
+          title="infotech@afribytesolution.com"
           bgSrc="/images/cta_bg_2.jpeg"
           variant="rounded-0"
         />

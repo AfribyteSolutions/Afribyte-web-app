@@ -1,12 +1,11 @@
-import React from 'react'
-import Div from '../Div'
-import AuthorWidget from '../Widget/AuthorWidget'
-import RecentPost from '../Widget/RecentPost'
-import SearchWidget from '../Widget/SearchWidget'
-import SideMenuWidget from '../Widget/SideMenuWidget'
-import TagWidget from '../Widget/TagWidget'
+import React from 'react';
+import Div from '../Div';
+import AuthorWidget from '../Widget/AuthorWidget';
+import RecentPost from '../Widget/RecentPost';
+import SearchWidget from '../Widget/SearchWidget';
 
-export default function Sidebar() {
+
+export default function Sidebar({ onCategorySelect }) {
   const tagData = [
     { title: 'Tech', url: '/' },
     { title: 'Innovation', url: '/' },
@@ -14,15 +13,15 @@ export default function Sidebar() {
     { title: 'Africa', url: '/' },
     { title: 'AI', url: '/' },
     { title: 'Fintech', url: '/' },
-  ]
+  ];
 
   const categoryData = [
-    { title: 'Digital Transformation', url: '/' },
-    { title: 'HR & Workforce', url: '/' },
-    { title: 'Event Tech', url: '/' },
-    { title: 'Travel & Hospitality', url: '/' },
-    { title: 'Fintech & Payments', url: '/' },
-  ]
+    { title: 'Tech & Innovation' },
+    { title: 'Business & HR Tech' },
+    { title: 'Travel & Tech' },
+    { title: 'Events & Culture' },
+    { title: 'Fintech & Digital Economy' },
+  ];
 
   const recentPostData = [
     {
@@ -49,14 +48,14 @@ export default function Sidebar() {
       href: '#',
       date: '02 Mar 2025'
     },
-  ]
+  ];
 
   return (
     <>
       <Div className="cs-sidebar_item">
-        <AuthorWidget 
+        <AuthorWidget
           src='/images/logo.png'
-          name='Tech Team' 
+          name='Tech Team'
           description='Afribyte is pioneering digital solutions for Africa’s evolving tech ecosystem, fostering innovation, and creating impact-driven solutions.'
         />
       </Div>
@@ -64,14 +63,23 @@ export default function Sidebar() {
         <SearchWidget title='Search Blog' />
       </Div>
       <Div className="cs-sidebar_item">
-        <SideMenuWidget title='Categories' data={categoryData} />
-      </Div>
-      <Div className="cs-sidebar_item">
-        <TagWidget title='Popular Topics' data={tagData} />
+        <h2 className="cs-sidebar_widget_title">Categories</h2>
+        <ul className="cs-menu_widget">
+          {categoryData.map((item, index) => (
+            <li key={index}>
+              <button 
+                style={{ background: 'none', border: 'none', color: '#333', cursor: 'pointer', padding: 0 }}
+                onClick={() => onCategorySelect(item.title)}
+              >
+                {item.title}
+              </button>
+            </li>
+          ))}
+        </ul>
       </Div>
       <Div className="cs-sidebar_item">
         <RecentPost title='Latest Articles' data={recentPostData} />
       </Div>
     </>
-  )
+  );
 }

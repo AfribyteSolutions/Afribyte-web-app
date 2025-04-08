@@ -21,19 +21,19 @@ export default function Footer({ copyrightText, logoSrc, logoAlt, text }) {
   const serviceMenu = [
     {
       title: 'UI/UX design',
-      href: '/service/service-details',
+      href: '/service',
     },
     {
-      title: 'WP development',
-      href: '/service/service-details',
+      title: 'Web development',
+      href: '/service',
     },
     {
       title: 'Application Development',
-      href: '/service/service-details',
+      href: '/service',
     },
     {
-      title: 'HR Training',
-      href: '/service/service-details',
+      title: 'Business Consulting',
+      href: '/service',
     },
   ];
 

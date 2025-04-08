@@ -49,7 +49,7 @@ export default function AfriVent() {
   }}
 >
   {/* Top Row */}
-  <Div style={{ gridColumn: '1 / 2', display: 'flex', justifyContent: 'center' }}>
+  {/* <Div style={{ gridColumn: '1 / 2', display: 'flex', justifyContent: 'center' }}>
     <img 
       src="/images/Afri-vent1.png" 
       alt="AfriVent 1" 
@@ -58,11 +58,11 @@ export default function AfriVent() {
   </Div>
   <Div style={{ gridColumn: '2 / 3', display: 'flex', justifyContent: 'center' }}>
     <img 
-      src="/images/Afri-vent2.jpg" 
+      src="/images/Afri-vent2.png" 
       alt="AfriVent 2" 
       style={{ width: '100%', borderRadius: '8px' }} 
     />
-  </Div>
+  </Div> */}
 
   {/* Bottom Row (smaller) */}
   <Div style={{ gridColumn: '1 / 3', display: 'flex', justifyContent: 'center' }}>

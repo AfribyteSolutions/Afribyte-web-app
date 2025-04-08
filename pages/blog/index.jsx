@@ -1,5 +1,5 @@
 import Head from 'next/head';
-import React from 'react';
+import React, { useState } from 'react';
 import Cta from '../../components/Cta';
 import Div from '../../components/Div';
 import Layout from '../../components/Layout';
@@ -10,6 +10,8 @@ import Sidebar from '../../components/Sidebar.jsx';
 import Spacing from '../../components/Spacing';
 
 export default function Blog() {
+  const [selectedCategory, setSelectedCategory] = useState(null);
+
   const postData = [
     {
       thumb: '/images/post_afribyte_1.jpg',
@@ -57,7 +59,10 @@ export default function Blog() {
       href: '#'
     }
   ];
-  
+
+  const filteredPosts = selectedCategory
+    ? postData.filter(post => post.category === selectedCategory)
+    : postData;
 
   return (
     <>
@@ -76,7 +81,7 @@ export default function Blog() {
         <Div className="container">
           <Div className="row">
             <Div className="col-lg-8">
-              {postData.map((item, index) => (
+              {filteredPosts.map((item, index) => (
                 <Div key={index}>
                   <PostStyle2
                     thumb={item.thumb}
@@ -86,15 +91,16 @@ export default function Blog() {
                     category={item.category}
                     href={item.href}
                   />
-                  {postData.length > index + 1 && <Spacing lg="95" md="60" />}
+                  {filteredPosts.length > index + 1 && <Spacing lg="95" md="60" />}
                 </Div>
               ))}
+              {filteredPosts.length === 0 && <p>No posts found for this category.</p>}
               <Spacing lg="60" md="40" />
               <Pagination />
             </Div>
             <Div className="col-xl-3 col-lg-4 offset-xl-1">
               <Spacing lg="0" md="80" />
-              <Sidebar />
+              <Sidebar onCategorySelect={setSelectedCategory} />
             </Div>
           </Div>
         </Div>

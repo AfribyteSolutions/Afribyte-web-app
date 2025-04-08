@@ -1,6 +1,5 @@
 import Head from 'next/head';
 import React from 'react';
-import Portfolio from '../../components/Portfolio';
 import Cta from '../../components/Cta';
 import Div from '../../components/Div';
 import Layout from '../../components/Layout';
