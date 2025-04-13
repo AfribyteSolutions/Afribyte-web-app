@@ -1,38 +1,41 @@
-import Head from 'next/head';
-import React from 'react';
-import Cta from '../components/Cta';
-import Div from '../components/Div';
-import FunFact from '../components/FunFact';
-import Layout from '../components/Layout';
-import PageHeading from '../components/PageHeading';
-import SectionHeading from '../components/SectionHeading';
-import TeamSlider from '../components/Slider/TeamSlider';
-import Spacing from '../components/Spacing';
+import Head from "next/head";
+import React from "react";
+import Cta from "../components/Cta";
+import Div from "../components/Div";
+import FunFact from "../components/FunFact";
+import Layout from "../components/Layout";
+import PageHeading from "../components/PageHeading";
+import SectionHeading from "../components/SectionHeading";
+import TeamSlider from "../components/Slider/TeamSlider";
+import Spacing from "../components/Spacing";
 
 export default function About() {
   const funfaceData = [
     {
-      title: 'Global Happy Clients',
-      factNumber: '50',
+      title: "Global Happy Clients",
+      factNumber: "50",
     },
     {
-      title: 'Project',
-      factNumber: '70',
+      title: "Project",
+      factNumber: "70",
     },
     {
-      title: 'Dedicated Team',
-      factNumber: '20',
+      title: "Dedicated Team",
+      factNumber: "20",
     },
     {
-      title: 'Cumulative Experience',
-      factNumber: '30',
+      title: "Cumulative Experience",
+      factNumber: "30",
     },
   ];
   return (
     <>
       <Head>
         <title>Home - About</title>
-        <meta name="description" content="All About Us as an Innovative Company" />
+        <meta
+          name="description"
+          content="All About Us as an Innovative Company"
+        />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Layout>
@@ -55,8 +58,12 @@ export default function About() {
               >
                 <Spacing lg="30" md="20" />
                 <p className="cs-m0">
-                Afribyte Solution specialises in delivering custom IT solutions to suit the needs of companies of every size, mainly within the African continent. Our products and services are carefully and efficiently crafted to have a perfect balance between cost and efficiency. 
-                We provide, custom, white label and shared solutions, depending on the needs of the client.
+                  Afribyte Solution specialises in delivering custom IT
+                  solutions to suit the needs of companies of every size, mainly
+                  within the African continent. Our products and services are
+                  carefully and efficiently crafted to have a perfect balance
+                  between cost and efficiency. We provide, custom, white label
+                  and shared solutions, depending on the needs of the client.
                 </p>
                 <Spacing lg="30" md="30" />
                 <Div className="cs-separator cs-accent_bg"></Div>
@@ -120,7 +127,7 @@ export default function About() {
             </Div>
             <Div className="col-xl-5 offset-xl-1 col-lg-6">
               <SectionHeading
-                title="Highly experienced pepole with us"
+                title="Highly experienced people with us"
                 subtitle="Why Choose Us"
               >
                 <Spacing lg="30" md="20" />
