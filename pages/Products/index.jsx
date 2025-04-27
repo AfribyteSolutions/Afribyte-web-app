@@ -32,10 +32,28 @@ export default function ProductsIndex() {
   return (
     <>
       <Head>
-        <title>Our Products - Afribyte</title>
-        <meta name="description" content="Explore Afribyte's tech solutions like Afribooking, Afri-HR, and AfriVents." />
+        <title>Our Products - Afribooking, Afri-HR & AfriVents | Afribyte</title>
+        <meta 
+          name="description" 
+          content="Explore Afribyte’s innovative platforms — Afribooking for travel, Afri-HR for workforce management, and AfriVents for African events. Discover digital tools tailored for Africa." 
+        />
+        <meta name="keywords" content="Afribooking, Afri-HR, AfriVents, Afribyte products, African tech solutions, booking apps Africa, HR software Africa, event platform Africa" />
+
+        <meta property="og:title" content="Our Products - Afribooking, Afri-HR & AfriVents | Afribyte" />
+        <meta property="og:description" content="Discover Afribyte's suite of tech platforms designed for Africa — from booking and HR to event management." />
+        <meta property="og:image" content="/images/portfolio_hero_bg.jpeg" />
+        <meta property="og:url" content="https://www.afribyte.com/products" />
+        <meta property="og:type" content="website" />
+
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Our Products - Afribooking, Afri-HR & AfriVents | Afribyte" />
+        <meta name="twitter:description" content="Explore Afribyte’s leading African tech platforms for travel, HR, and events." />
+        <meta name="twitter:image" content="/images/portfolio_hero_bg.jpeg" />
+
+        <link rel="canonical" href="https://www.afribyte.com/products" />
         <link rel="icon" href="/footer_logo.png" />
       </Head>
+
 
       <Layout>
         <PageHeading
