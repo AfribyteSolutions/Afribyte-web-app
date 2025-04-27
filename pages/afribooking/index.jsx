@@ -71,8 +71,28 @@ export default function AfribookingPage() {
   return (
     <>
       <Head>
-        <title>Home - Afribooking</title>
-        <meta name="description" content="Afribooking application" />
+        <title>Afribooking - Discover Authentic Stays Across Africa | Afribyte</title>
+        <meta 
+          name="description" 
+          content="Afribooking connects travelers to unique accommodations across Africa. Book authentic homes, eco-lodges, villas, and guesthouses with ease." 
+        />
+        <meta 
+          name="keywords" 
+          content="Afribooking, African travel, holiday homes, booking platform Africa, eco-lodges, guesthouses, African tourism, Afribyte, authentic African stays" 
+        />
+
+        <meta property="og:title" content="Afribooking - Discover Authentic Stays Across Africa | Afribyte" />
+        <meta property="og:description" content="Explore the beauty of Africa with Afribooking. Book cozy homes, cultural getaways, and community-powered stays on our trusted travel platform." />
+        <meta property="og:image" content="/images/portfolio_8.png" />
+        <meta property="og:url" content="https://www.afribyte.com/afribooking" />
+        <meta property="og:type" content="website" />
+
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Afribooking - Discover Authentic Stays Across Africa" />
+        <meta name="twitter:description" content="Travel Africa with ease. Find unique accommodations and connect with local culture through Afribooking." />
+        <meta name="twitter:image" content="/images/portfolio_8.png" />
+
+        <link rel="canonical" href="https://www.afribyte.com/afribooking" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Layout>
