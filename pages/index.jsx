@@ -55,9 +55,19 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Home - Afribyte Creative Agency</title>
-        <meta name="description" content="World Best IT Solutions" />
-        <link rel="icon" href="/footer_logo.png" />
+          <title>Afribyte - Top IT Solutions & Digital Agency in Africa</title>
+          <meta 
+            name="description" 
+            content="Afribyte is Africa’s leading creative tech agency offering innovative IT solutions, web & app development, UI/UX design, and business consultancy services." 
+          />
+          <meta name="keywords" content="Afribyte, IT solutions Africa, web development, UI/UX design, digital agency, app development, tech in Africa" />
+          <meta property="og:title" content="Afribyte - Top IT Solutions & Digital Agency in Africa" />
+          <meta property="og:description" content="Explore Afribyte's innovative IT solutions built for businesses in Africa. From web design to full-scale applications, we bring your vision to life." />
+          <meta property="og:image" content="/images/hero_bg.jpeg" />
+          <meta property="og:url" content="https://www.afribyte.com" />
+          <meta property="og:type" content="website" />
+          <link rel="canonical" href="https://www.afribyte.com" />
+          <link rel="icon" href="/footer_logo.png" />
       </Head>
       <Layout>
         {/* Start Hero Section */}
