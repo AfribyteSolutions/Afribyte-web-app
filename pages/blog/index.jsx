@@ -67,26 +67,29 @@ export default function Blog() {
   return (
     <>
       <Head>
-        <title>Our Products - Afribooking, Afri-HR & AfriVents | Afribyte</title>
-        <meta 
-          name="description" 
-          content="Explore Afribyte’s innovative platforms — Afribooking for travel, Afri-HR for workforce management, and AfriVents for African events. Discover digital tools tailored for Africa." 
-        />
-        <meta name="keywords" content="Afribooking, Afri-HR, AfriVents, Afribyte products, African tech solutions, booking apps Africa, HR software Africa, event platform Africa" />
+          <title>Afribyte Blog - Tech Innovation, Fintech, Events & More in Africa</title>
+          <meta 
+            name="description" 
+            content="Read Afribyte’s latest articles on tech innovation, HR tech, African fintech, digital events, and how we’re shaping Africa’s digital economy." 
+          />
+          <meta 
+            name="keywords" 
+            content="Afribyte blog, African tech blog, fintech Africa, HR tech, event tech, digital innovation, Afribyte insights, Afribyte news" 
+          />
 
-        <meta property="og:title" content="Our Products - Afribooking, Afri-HR & AfriVents | Afribyte" />
-        <meta property="og:description" content="Discover Afribyte's suite of tech platforms designed for Africa — from booking and HR to event management." />
-        <meta property="og:image" content="/images/portfolio_hero_bg.jpeg" />
-        <meta property="og:url" content="https://www.afribyte.com/products" />
-        <meta property="og:type" content="website" />
+          <meta property="og:title" content="Afribyte Blog - Tech Innovation, Fintech, Events & More in Africa" />
+          <meta property="og:description" content="Explore the Afribyte blog for expert insights on Africa’s digital transformation, innovative platforms, and future-forward tech." />
+          <meta property="og:image" content="/images/blog_hero_bg.jpeg" />
+          <meta property="og:url" content="https://www.afribyte.com/blog" />
+          <meta property="og:type" content="website" />
 
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="Our Products - Afribooking, Afri-HR & AfriVents | Afribyte" />
-        <meta name="twitter:description" content="Explore Afribyte’s leading African tech platforms for travel, HR, and events." />
-        <meta name="twitter:image" content="/images/portfolio_hero_bg.jpeg" />
+          <meta name="twitter:card" content="summary_large_image" />
+          <meta name="twitter:title" content="Afribyte Blog - Tech Innovation, Fintech, Events & More in Africa" />
+          <meta name="twitter:description" content="Stay updated with Afribyte's thought leadership in African tech, HR, travel platforms, and digital culture." />
+          <meta name="twitter:image" content="/images/blog_hero_bg.jpeg" />
 
-        <link rel="canonical" href="https://www.afribyte.com/products" />
-        <link rel="icon" href="/footer_logo.png" />
+          <link rel="canonical" href="https://www.afribyte.com/blog" />
+          <link rel="icon" href="/favicon.ico" />
       </Head>
       <Layout>
         <PageHeading
