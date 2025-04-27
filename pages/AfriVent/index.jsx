@@ -13,8 +13,28 @@ export default function AfriVent() {
   return (
     <>
       <Head>
-        <title>Home - AfriVents</title>
-        <meta name="description" content="AfriVents application" />
+        <title>AfriVents - Africa’s All-in-One Event Booking & Ticketing Platform</title>
+        <meta 
+          name="description" 
+          content="Discover, promote, and attend events with AfriVents – the future of event ticketing in Africa. Secure bookings, digital access, and seamless management for all events." 
+        />
+        <meta 
+          name="keywords" 
+          content="AfriVents, event ticketing Africa, Afribyte events, African festivals, book African events, event booking platform, ticket management system Africa" 
+        />
+
+        <meta property="og:title" content="AfriVents - Africa’s All-in-One Event Booking & Ticketing Platform" />
+        <meta property="og:description" content="AfriVents connects attendees and organizers through an intuitive, secure event platform. Book, host, and attend events effortlessly across Africa." />
+        <meta property="og:image" content="/images/post_afribyte_4.jpg" />
+        <meta property="og:url" content="https://www.afribyte.com/afrivents" />
+        <meta property="og:type" content="website" />
+
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="AfriVents - Africa’s All-in-One Event Booking & Ticketing Platform" />
+        <meta name="twitter:description" content="Your gateway to African events – concerts, festivals, business expos and more, with secure digital ticketing from Afribyte." />
+        <meta name="twitter:image" content="/images/post_afribyte_4.jpg" />
+
+        <link rel="canonical" href="https://www.afribyte.com/afrivents" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Layout>
