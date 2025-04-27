@@ -30,14 +30,45 @@ export default function About() {
   ];
   return (
     <>
-      <Head>
-        <title>Home - About</title>
+       <Head>
+        <title>Home - About | Afribyte</title>
         <meta
           name="description"
-          content="All About Us as an Innovative Company"
+          content="Learn more about Afribyte, an innovative company focused on building technology solutions for African societies."
         />
+        <meta
+          name="keywords"
+          content="Afribyte, innovative technology solutions, African society, tech company, Afribyte about"
+        />
+        <meta
+          name="author"
+          content="Afribyte Solutions"
+        />
+        <meta property="og:title" content="Home - About | Afribyte" />
+        <meta
+          property="og:description"
+          content="Discover Afribyte, a company dedicated to creating innovative tech solutions that empower African societies."
+        />
+        <meta property="og:type" content="website" />
+        <meta
+          property="og:image"
+          content="URL-to-image" // Replace with actual image URL (optional)
+        />
+        <meta
+          property="og:url"
+          content="https://www.afribyte.com/about" // Replace with your actual URL
+        />
+        <meta name="twitter:title" content="Home - About | Afribyte" />
+        <meta
+          name="twitter:description"
+          content="Discover Afribyte, a company dedicated to creating innovative tech solutions that empower African societies."
+        />
+        <meta name="twitter:image" content="URL-to-image" /> // Replace with actual image URL (optional)
+        <meta name="twitter:card" content="summary_large_image" />
         <link rel="icon" href="/favicon.ico" />
+        <link rel="canonical" href="https://www.afribyte.com/about" /> // Replace with your actual URL
       </Head>
+
       <Layout>
         {/* Start Page Heading Section */}
         <PageHeading
