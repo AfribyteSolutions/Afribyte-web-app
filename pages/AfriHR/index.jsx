@@ -13,8 +13,28 @@ export default function AfriHR() {
   return (
     <>
       <Head>
-        <title>Home - Afri-HR</title>
-        <meta name="description" content="Afri-HR application" />
+        <title>Afri-HR - Smart Human Resource Management for African Businesses</title>
+        <meta 
+          name="description" 
+          content="Afri-HR is an all-in-one HR platform for African companies. Streamline hiring, payroll, onboarding, and performance tracking with secure digital tools." 
+        />
+        <meta 
+          name="keywords" 
+          content="Afri-HR, HR management Africa, payroll system, employee tracking, recruitment software, workforce automation, Afribyte HR platform" 
+        />
+
+        <meta property="og:title" content="Afri-HR - Smart Human Resource Management for African Businesses" />
+        <meta property="og:description" content="Automate your HR operations with Afri-HR. From recruitment to payroll, simplify how you manage people and compliance in Africa." />
+        <meta property="og:image" content="/images/afri-hr.jpg" />
+        <meta property="og:url" content="https://www.afribyte.com/afrihr" />
+        <meta property="og:type" content="website" />
+
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Afri-HR - Smart Human Resource Management for African Businesses" />
+        <meta name="twitter:description" content="Afri-HR is transforming HR across Africa. Discover how digital tools make workforce management simple, fast, and secure." />
+        <meta name="twitter:image" content="/images/afri-hr.jpg" />
+
+        <link rel="canonical" href="https://www.afribyte.com/afrihr" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Layout>
