@@ -33,9 +33,26 @@ export default function PortfolioPage() {
   return (
     <>
       <Head>
-        <title>Portfolio</title>
-        <meta name="description" content="Our portfolio showcases innovative UI/UX designs, web applications, and creative digital solutions." />
-        <link rel="icon" href="/footer_logo.png" />
+        <title>Portfolio - UI/UX Design & Web Applications | Afribyte</title>
+        <meta 
+          name="description" 
+          content="Explore Afribyte’s portfolio featuring UI/UX design, custom web applications, and cutting-edge digital projects for innovative businesses." 
+        />
+        <meta name="keywords" content="UI/UX portfolio, web app development, Afribyte projects, digital solutions, creative design Africa, Afribyte case studies" />
+
+        <meta property="og:title" content="Portfolio - UI/UX Design & Web Applications | Afribyte" />
+        <meta property="og:description" content="Discover Afribyte’s recent digital creations — from immersive designs to smart web applications for African businesses and global users." />
+        <meta property="og:image" content="/images/portfolio_hero_bg.jpeg" />
+        <meta property="og:url" content="https://www.afribyte.com/portfolio" />
+        <meta property="og:type" content="website" />
+
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Portfolio - UI/UX Design & Web Applications | Afribyte" />
+        <meta name="twitter:description" content="See Afribyte’s most recent work in digital design and web development. Innovation and creativity meet functionality." />
+        <meta name="twitter:image" content="/images/portfolio_hero_bg.jpeg" />
+
+        <link rel="canonical" href="https://www.afribyte.com/portfolio" />
+        <link rel="icon" href="/footer_logo.png" />   
       </Head>
       <Layout>
         <PageHeading
