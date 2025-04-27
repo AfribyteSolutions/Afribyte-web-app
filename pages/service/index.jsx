@@ -14,8 +14,25 @@ export default function Service() {
   return (
     <>
       <Head>
-        <title>Service</title>
-        <meta name="description" content="The Services we provide as an Information Technology Company" />
+        <title>Our Services - Web, App & UI/UX Design | Afribyte</title>
+        <meta 
+          name="description" 
+          content="Explore Afribyte's full suite of services including UI/UX design, mobile and web app development, website creation, and business consultancy tailored for modern African enterprises." 
+        />
+        <meta name="keywords" content="Afribyte services, UI/UX design, app development Africa, web development, IT consultancy, tech solutions" />
+        
+        <meta property="og:title" content="Our Services - Web, App & UI/UX Design | Afribyte" />
+        <meta property="og:description" content="Discover the range of digital services offered by Afribyte, from intuitive user experiences to full-scale web and app development." />
+        <meta property="og:image" content="/images/service_hero_bg.jpeg" />
+        <meta property="og:url" content="https://www.afribyte.com/service" />
+        <meta property="og:type" content="website" />
+
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Our Services - Web, App & UI/UX Design | Afribyte" />
+        <meta name="twitter:description" content="Check out Afribyte’s IT services including web and mobile development, UI/UX design, and digital consultancy." />
+        <meta name="twitter:image" content="/images/service_hero_bg.jpeg" />
+
+        <link rel="canonical" href="https://www.afribyte.com/service" />
         <link rel="icon" href="/footer_logo.png" />
       </Head>
       <Layout>
